@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="changeEmail()">
+  <div class="container">
+    <div class="box">
+      <h1 class="title">Random Mail</h1>
+      <p id="info"></p>
+      <div class="box-email">
+        <textarea id="email" readonly>Loading</textarea>
+        <button id="btn" onclick="changeEmail()">Refresh</button>
+        <button id="btn" onclick="copyt()">Copy</button>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
